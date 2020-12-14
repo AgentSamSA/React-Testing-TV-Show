@@ -10,5 +10,6 @@ export const fetchShow = () => {
     })
     .catch(err => {
         console.log(err);
+        return err;
     });
 };
